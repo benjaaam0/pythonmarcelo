@@ -1,0 +1,49 @@
+#matricula 
+rut = input("Ingrese rut apoderado: ") 
+nomAlum = input("ingrese el nombre del alumno: ") 
+curso = input("Ingrese curso al cual el alumno debe matricularse: ") 
+matricula = int(25000) 
+mensualidad = int(30000) 
+resultadoAnual = (mensualidad*10)+matricula
+
+print(f"-----Detalle Anualidad Colegio----") 
+print(f"NOMBRE ALUMNO:{nomAlum}") 
+print(f"RUT APODERADO: {rut}") 
+print(f"CURSO MATRICULADO: {curso}") 
+print(f"VALOR MATRICULA: {matricula}") 
+print(f"VALOR MENSUALIDAD: {mensualidad}") 
+print(f"VALOR TOTAL A PAGAR: {resultadoAnual}")
+
+#ValorNetoDeUnProducto producto = input("ingrese el nombre del prroducto:") valorProducto = int(input("ingrese el valor del producto:")) valorNeto = float(0.81) valorSinIva = float(valorProducto * valorNeto)
+
+print(f"-----Detalle producto-----") 
+print(f"NOMBRE PRODUCTO: {producto}") 
+print(f"VALOR PRODUCTO: {valorProducto}") 
+print(f"VALOR PRODUCTO SIN IVA: {valorSinIva}")
+
+#ingreso de liquidación de sueldo nom = input ("Ingrese nombre empleado: ") rut = input ("Ingrese rut empleado: ") horasTrabajadas = int(input ("Ingrese las horas trabajadas: ")) valorHora = int(input("Ingrese el valor hora del empleado: ")) colacion = int(5500) movilizacion = int(3000) resultado = (valorHora * horasTrabajadas)+colacion+movilizacion print(f"-----LIQUIDACIÓN EMPLEADO----") print(f"NOMBRE EMPLEADO: {nom}") print(f"RUT EMPLEADO: {rut}") print(f"MOVILIZACIÓN: {movilizacion}") print(f"ALIMENTACIÓN: {colacion}") print(f"PAGO A EMPLEADO: {resultado}")
+
+#contraseña
+
+apellido = input("Las 2 primeras letras de su segundo apellido: ") 
+rut = input("Los 2 primeros números de su rut: ") 
+mes = input("Las 3 letras iniciales del mes de su nacimiento: ") 
+ciudad = input("Las 2 últimas letras de la ciudad donde vive: ") 
+
+opcion1 = nombre + apellido + rut + mes + ciudad 
+opcion2 = nombre + rut + apellido + mes + ciudad + mes 
+opcion3 = rut + nombre + mes + ciudad + apellido 
+opcion4 = apellido + rut + nombre + mes + ciudad + rut 
+opcion5 = ciudad + apellido + nombre +rut + mes + ciudad 
+print("")
+print(f"La opción 1 de contraseña es: {opcion1}") 
+print(f"La opción 2 de contraseña es: {opcion2}") 
+print(f"La opción 3 de contraseña es: {opcion3}") 
+print(f"La opción 4 de contraseña es: {opcion4}") 
+print(f"La opción 5 de contraseña es: {opcion5}")
+
+#juego del gato
+
+Líneaincógnita1: print(f"\t{posicionA}\t|\t{posicionB}\t |\t{posicionC}") 
+Líneaincógnita2: print(f"\t{posicionD}\t|\t{posicionE}\t |\t{posicionF}") 
+Líneaincógnita3: print(f"\t{posicionG}\t|\t{posicionH}\t |\t{posicionI}")
